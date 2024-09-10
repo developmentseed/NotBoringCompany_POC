@@ -16,12 +16,13 @@ $ aws s3 ls not-boring-company-cogs
 
 - Looking at a particular COG
 
-
+```
     $ aws s3 ls not-boring-company-cogs/20240101_town1_nm_fires/ --recursive --human
     2024-01-01 04:18:25    0 Bytes 20240101_town1_nm_fires/
     2024-01-01 05:49:58  138 Bytes 20240101_town1_nm_fires/cog.prj
     2024-01-01 05:49:58   67 Bytes 20240101_town1_nm_fires/cog.tfw
     2024-01-01 05:52:34   19.5 GiB 20240101_town1_nm_fires/cog.tif
+```
 
 🤔 rio-cogeo says it’s not a Valid COG
 
